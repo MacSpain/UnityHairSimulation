@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NedMakesGames_TessellationSample
+  m_Shader: {fileID: 4800000, guid: e3d3997e7d1fcbb439c911cf7da9a4cf, type: 3}
+  m_ValidKeywords:
+  - _GENERATE_NORMALS_HEIGHT
+  - _PARTITIONING_INTEGER
+  - _TESSELLATION_FACTOR_CONSTANT
+  - _TESSELLATION_SMOOTHING_BEZIER_QUAD_NORMALS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseHeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaBase: 1
+    - _AlphaCutoff: 1
+    - _AlphaPower: 1
+    - _AngleCutoff: 0
+    - _Attenuation: 2
+    - _BackFaceCullTolerance: 0
+    - _BaseHeightMapAltitude: 0
+    - _CurlPower: 0
+    - _CurlSize: 0
+    - _Curvature: 1
+    - _Density: 640
+    - _DisplacementStrength: 0.1
+    - _FrustumCullTolerance: 0
+    - _GENERATE_NORMALS: 1
+    - _HeightCutoff: 0
+    - _HeightMapAltitude: 0.1
+    - _MaxNormalStrength: 1
+    - _Metallic: 0
+    - _MinNormalStrength: 0
+    - _NoiseMax: 1
+    - _NoiseMin: 0
+    - _NormalPower: 1
+    - _Occlusion: 1
+    - _OcclusionBias: 0
+    - _PARTITIONING: 0
+    - _ShellDistanceAttenuation: 1
+    - _ShellLength: 0.15
+    - _Smoothness: 0
+    - _StrandComplexity: 1
+    - _StrandCount: 1
+    - _TESSELLATION_FACTOR: 0
+    - _TESSELLATION_SMOOTHING: 3
+    - _TessellationBias: 0
+    - _TessellationFactor: 64
+    - _TessellationFactor2: 32
+    - _TessellationFactorVColors: 0
+    - _TessellationFadePower: 1
+    - _TessellationSmoothing: 1
+    - _TessellationSmoothingVColors: 0
+    - _Thickness: 1
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
+    - _HeightMapScale: {r: 0, g: 0.84, b: 0.56, a: 0.28}
+    - _ShellColor: {r: 0.75294125, g: 0.5411765, b: 0.43921572, a: 1}
+    - _ShellDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _SnowMapScale: {r: 4.27, g: 0.37, b: 0.31, a: 0.58}
+    - _Specular: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
